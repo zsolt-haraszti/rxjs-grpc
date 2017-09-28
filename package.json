@@ -17,7 +17,6 @@
     "start": "node js/cli",
     "build": "tsc",
     "lint": "tslint --project .",
-    "prepublish": "npm run build",
     "test": "jest",
     "test:watch": "jest --watch",
     "coverage": "jest --coverage",
@@ -38,7 +37,7 @@
     "@types/jasmine": "^2.5.43",
     "@types/minimist": "^1.2.0",
     "@types/mz": "^0.0.30",
-    "@types/node": "^7.0.5",
+    "@types/node": "^7.0.43",
     "@types/tmp": "^0.0.32",
     "glob": "^7.1.1",
     "grpc": "^1.1.2",
@@ -46,7 +45,7 @@
     "jest": "^19.0.2",
     "rxjs": "^5.2.0",
     "tslint": "^4.5.1",
-    "typescript": "^2.2.1"
+    "typescript": "^2.5.3"
   },
   "peerDependencies": {
     "rxjs": "^5.2.0"

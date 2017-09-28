@@ -9,8 +9,8 @@
   },
   "scripts": {
     "start": "npm run grpc-namespaces",
-    "server": "ts-node server",
-    "client": "ts-node client",
+    "server": "node dist/server.js",
+    "client": "node dist/client.js",
     "preserver": "npm run grpc-namespaces",
     "preclient": "npm run grpc-namespaces",
     "grpc-namespaces": "rxjs-grpc -o grpc-namespaces.ts *.proto"
@@ -20,6 +20,9 @@
     "rxjs-grpc": "file:../.."
   },
   "devDependencies": {
-    "ts-node": "^2.1.0"
+    "@types/node": "^8.0.31",
+    "ts-node": "^2.1.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.5.2"
   }
 }
